@@ -1,0 +1,33 @@
+.lang-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 20rpx 40rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+
+.item-inner {
+  display: flex;
+  align-items: center;
+  padding:  20rpx 40rpx 20rpx 40rpx;
+  
+}
+.item-inner.selected{
+  background-color: rgba(65, 85, 93, 0.2);
+}
+
+.item .txt {
+  flex: 1;
+}
+
+.item .iconfont {
+  margin-left: auto;
+  color: #fff;
+}
+
+.item:nth-child(2) .item-inner {
+  border-top: none;
+}

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#88b8cc",
+    "navigationBarTitleText": "林子翻译",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#88b8cc"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "custom": true,
+    "position": "top",
+    "color": "#005377",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/images/f.png",
+        "selectedIconPath": "/assets/images/f2.png",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "/assets/images/h.png",
+        "selectedIconPath": "/assets/images/h2.png",
+        "text": "历史"
+      }
+    ]
+  }
+}
